@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#39b550</color>
+    <color name="colorPrimaryDark">#20953d</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="amber">#FFC107</color>
+    <color name="theme_accent">#04561A</color>
+
+
+    <color name="colorPrimaryTextDefaultMaterialLight">#DE000000</color>
+    <color name="colorSecondaryTextDefaultMaterialLight">#8A000000</color>
+
+    <color name="colorPrimaryTextDefaultMaterialDark">#FFFFFFFF</color>
+    <color name="colorSecondaryTextDefaultMaterialDark">#B3FFFFFF</color>
+    <color name="color_ActivityMain">#39b550</color>
+    <!--39b550-->
+    <!--20953d-->
+</resources>

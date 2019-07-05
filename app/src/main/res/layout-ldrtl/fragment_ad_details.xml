@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView_adFrag"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView_category_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        tools:text="التصنيف :"
+        android:text="@string/category"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView_adFrag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_adFrag"
+
+        />
+
+    <TextView
+        android:id="@+id/adv_category_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="2dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toEndOf="@+id/textView_category_frag"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_adFrag"
+        tools:text="معادن" />
+
+    <TextView
+        android:id="@+id/textView_location_frag"
+        style="@style/textView_title_fragment"
+        android:text="@string/location"
+        tools:text=" الموقع :"
+        app:layout_constraintStart_toStartOf="@+id/textView_category_frag"
+        app:layout_constraintTop_toBottomOf="@+id/textView_category_frag" />
+
+    <TextView
+        android:id="@+id/adv_location_tv"
+        style="@style/textView_value_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/adv_category_tv"
+        app:layout_constraintStart_toStartOf="@id/adv_category_tv"
+        tools:layout_editor_absoluteX="236dp"
+        tools:text="طنطا" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/textView_title_fragment"
+        tools:text="المعلن :"
+        android:text="@string/owner"
+        app:layout_constraintStart_toStartOf="@+id/textView_location_frag"
+        app:layout_constraintTop_toBottomOf="@+id/textView_location_frag" />
+
+    <TextView
+        android:id="@+id/adv_owner_name_tv"
+        style="@style/textView_value_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/adv_location_tv"
+        app:layout_constraintStart_toStartOf="@id/adv_location_tv"
+
+        tools:layout_editor_absoluteX="241dp"
+        tools:text="جيدا" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/textView_title_fragment"
+        tools:text="الايميل :"
+        android:text="@string/ownerEmail"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/adv_email_tv"
+        style="@style/textView_value_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/adv_owner_name_tv"
+        app:layout_constraintStart_toStartOf="@id/adv_owner_name_tv"
+        tools:layout_editor_absoluteX="241dp"
+        tools:text="gida.m@yahoo.com" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/textView_title_fragment"
+        tools:text="الوصف :"
+        android:text="@string/des"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/adv_description_tv"
+        style="@style/textView_value_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/adv_email_tv"
+        app:layout_constraintStart_toStartOf="@id/adv_email_tv"
+        tools:layout_editor_absoluteX="241dp"
+        tools:text="مستورد" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/textView_title_fragment"
+        tools:text="السعر :"
+        android:text="@string/price_frag"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/adv_salary_tv_frag"
+        style="@style/textView_value_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/adv_description_tv"
+        app:layout_constraintStart_toStartOf="@id/adv_description_tv"
+        tools:layout_editor_absoluteX="241dp"
+        tools:text="100" />
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/textView_title_fragment"
+        tools:text="التاريخ :"
+        android:text="@string/date"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/adv_date_tv_frag"
+        style="@style/textView_value_fragment"
+        app:layout_constraintTop_toBottomOf="@+id/adv_salary_tv_frag"
+        app:layout_constraintStart_toStartOf="@id/adv_salary_tv_frag"
+        tools:layout_editor_absoluteX="241dp"
+        tools:text="25/6/2019" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+
+        >
+
+        <Button
+            android:id="@+id/btn_email"
+            style="@style/button_fragment_style"
+            android:background="@color/amber"
+            android:gravity="center"
+            android:text="@string/email"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_phone"
+            style="@style/button_fragment_style"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/phone"
+            android:textColor="@color/amber" />
+
+        <ImageButton
+            android:id="@+id/fav"
+            style="@style/button_fragment_style"
+            android:layout_gravity="bottom|center_vertical"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff"
+            android:contentDescription="@null"
+            android:padding="11dp"
+            android:src="@drawable/favorite_movie" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <RelativeLayout
+
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="2dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="2dp"
+        android:paddingBottom="5dp"
+        tools:context=".Display">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+
+            <Spinner
+                android:id="@+id/order_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:spinnerMode="dropdown" />
+
+
+            <ImageButton
+                android:id="@+id/filter_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/baseline_filter_list_24" />
+
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:id="@+id/messageListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:divider="@android:color/transparent"
+            android:transcriptMode="alwaysScroll"
+            tools:listitem="@layout/item_ads" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/amber"
+            android:src="@drawable/baseline_add_white_18"
+            android:background="#fff"
+            app:fabSize="normal"
+            app:rippleColor="#fff" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

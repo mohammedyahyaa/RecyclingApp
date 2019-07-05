@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Regain</string>
+    <string name="sign_out">Sign out</string>
+
+    <!--ACTIVITY_MAIN COMPONENTS-->
+    <string name="adv_name">اسم الاعلان</string>
+    <string name="photo_text">إلتقط صورة جديدة أو إختر من مكتبة الصور </string>
+    <string name="adv_description">الوصف</string>
+    <string name="adv_owner">اسم المعلن</string>
+    <string name="mail_owner">إيميل</string>
+    <string name="owner_phone">رقم الموبايل </string>
+    <string name="radio_text1">التواصل عبر الموبايل </string>
+    <string name="radio_text2">التواصل عبر الايميل </string>
+    <string name="radio_text3">معا</string>
+    <string name="add_button">إضف اعلان</string>
+    <string name="spinner_title1">التصنيف</string>
+    <string name="spinner_title2">المكان</string>
+
+
+    <string name="updateButton">تحديث</string>
+    <string name="DeleteButton">حذف</string>
+
+
+    <string-array name="Recycling_category">
+
+        <item>مستلزمات ورقيه</item>
+        <item>كاوتش ومطاط</item>
+        <item>بلاستيك</item>
+        <item>معادن</item>
+    </string-array>
+
+    <string-array name="city">
+
+        <item>القاهره</item>
+        <item>الاسكندرية</item>
+        <item>طنطا</item>
+    </string-array>
+
+    <string-array name="filter">
+
+        <item>الكل</item>
+        <item>مستلزمات ورقيه</item>
+        <item>كاوتش ومطاط</item>
+        <item>بلاستيك</item>
+
+
+        <item>معادن</item>
+
+    </string-array>
+
+    <string-array name="order">
+
+
+        <item>رتب</item>
+        <item>الاحدث</item>
+        <item>الأعلي سعرا</item>
+        <item>الأقل سعر</item>
+
+
+    </string-array>
+
+
+    <string name="action_share">Share</string>
+
+    <string name="frag_details">Details</string>
+    <string name="ad">AD</string>
+    <string name="price">price</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Recycling</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="supporting">Greyhound divisively hello.</string>
+    <string name="title">Title</string>
+    <string name="subhead">Subhead</string>
+    <string name="primary">Title goes here</string>
+    <string name="primary_short">Title here</string>
+    <string name="subtext">Subtitle here</string>
+    <string name="action_1">Action 1</string>
+    <string name="action_2">Action 2</string>
+    <string name="expanded_supporting">mm</string>
+
+
+    <string name="offline">No internet connection available</string>
+    <string name="online">You\'re online</string>
+
+    <!-- fragment_content -->
+    <string name="category"> تصنيف :</string>
+    <string name="location"> الموقع :</string>
+    <string name="owner"> المعلن :</string>
+    <string name="ownerEmail">الايميل :</string>
+    <string name="des">الوصف :</string>
+    <string name="price_frag">السعر :</string>
+    <string name="date">التاريخ :</string>
+
+    <string name="email">ارسال</string>
+    <string name="phone">اتصال</string>
+    <string name="noData">No Data Found..</string>
+    <string name="no_data_found">No Data Found</string>
+
+    <!-- navigation Drawer menu items-->
+    <string name="home">الرئيسية</string>
+    <string name="search">بحث</string>
+    <string name="person">اعلاناتى</string>
+    <string name="fav">المفضلة</string>
+    <string name="ad_drawer">اضافة</string>
+
+
+    <!-- Strings for MainActivity class -->
+    <string name="validate_name">لابد من ادخال اسم الاعلان</string>
+    <string name="validate_des">لابد من ادخال وصف للاعلان</string>
+    <string name="validate_mail">لابد من ادخال البريد الالكتروني</string>
+    <string name="validate_phone">لابد من ادخال رقم الموبايل</string>
+    <string name="validate_owner">لابد من ادخال اسم صاحب الاعلان</string>
+    <string name="spinner_titleDes">التصنيف</string>
+    <string name="spinner_titleLocation">المكان</string>
+    <string name="validate_all_data">يجب اتمام البينانات</string>
+    <string name="warning">تنبيه</string>
+    <string name="isMailRight">برجاء ادخال ايميل صحيح</string>
+    <string name="valid">valid</string>
+    <string name="isPhoneValid">Phone is not valid...</string>
+    <string name="select_photo">Select Picture</string>
+    <string name="uploading">Uploading...</string>
+    <string name="adCompletion">تمت اضافة الاعلان</string>
+    <string name="failed">Failed</string>
+    <string name="adInProgress">جارى اضافة الاعلان</string>
+    <string name="updating_adv">تحديث اعلان</string>
+
+
+</resources>
